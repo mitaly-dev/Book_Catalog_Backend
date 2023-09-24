@@ -8,7 +8,7 @@ datasource db {
 }
 
 model User {
-  id   Int    @id @default(autoincrement())
+  id   String @id @default(uuid())
   name String
   email String @unique
   password String 
@@ -16,6 +16,48 @@ model User {
   contactNo String 
   address String 
   profileImg String
+  
+  reviewAndRatings ReviewAndRating[]
+
+  @@map("users")
+}
+
+model Category {
+  id   String @id @default(uuid())
+  title String 
+  books Book[]
+
+
+ @@map("categories")
+}
+
+model Book {
+  id   String @id @default(uuid())
+  title String 
+  author String
+  price Float
+  genre String
+  publicationDate String
+  categoryId String
+  category Category @relation(fields: [categoryId],references: [id])
+
+  reviewAndRatings ReviewAndRating[]
+
+ @@map("books")
+}
+
+
+model ReviewAndRating {
+  id   String @id @default(uuid())
+  review String
+  rating Int 
+  userId String
+  user User @relation(fields: [userId],references: [id])
+  bookId String
+  book Book @relation(fields: [bookId],references: [id])
+  
+
+ @@map("reviews_and_ratings")
 }
 
 
@@ -23,3 +65,4 @@ enum UserRole {
   admin
   customer
 }
+

@@ -16,4 +16,4 @@ router.post(
   AuthCtrl.loginUser,
 );
 
-export const AuthRoute = router;
+export const AuthRoutes = router;

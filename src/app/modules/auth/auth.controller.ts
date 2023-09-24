@@ -4,14 +4,15 @@ import httpStatus from 'http-status';
 import config from '../../../config';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
+import signInSendResponse from '../../../shared/signinSendResponse';
 import { AuthService } from './auth.service';
 
 const createUser = catchAsync(async (req: Request, res: Response) => {
   const result = await AuthService.createUser(req.body);
 
   sendResponse<User>(res, {
-    statusCode: httpStatus.OK,
     success: true,
+    statusCode: httpStatus.OK,
     message: 'User created successfully!',
     data: result,
   });
@@ -28,11 +29,11 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
 
   res.cookie('token', token, token_options);
 
-  sendResponse(res, {
-    statusCode: httpStatus.OK,
+  signInSendResponse(res, {
     success: true,
+    statusCode: httpStatus.OK,
     message: 'User signin successfully!',
-    data: token,
+    token,
   });
 });
 
