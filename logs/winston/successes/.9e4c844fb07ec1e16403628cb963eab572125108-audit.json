@@ -1,0 +1,245 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\.9e4c844fb07ec1e16403628cb963eab572125108-audit.json",
+    "files": [
+        {
+            "date": 1694223309143,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-09-09-07-success.log",
+            "hash": "a444bca0b44092616baf1ab67688d728820e3144e4a8b5a5dc8f5dc4e81d8c94"
+        },
+        {
+            "date": 1694225602417,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-09-09-08-success.log",
+            "hash": "dd344cab18c652ee31934b87ce19e64316d7c9a076152f7105103d0378946f20"
+        },
+        {
+            "date": 1694231680370,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-09-09-09-success.log",
+            "hash": "5372de221285f7a6d2fd2b0347fcbca8e81eb26d6a0d59018da19bc04f546290"
+        },
+        {
+            "date": 1694232019880,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-09-09-10-success.log",
+            "hash": "9aa8028386f5bee242939218b5c8cef8400b9dba7d2da56f1c52a7220ad99804"
+        },
+        {
+            "date": 1694368879515,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-11-09-00-success.log",
+            "hash": "7fb592c055a53aae5c6f707ccf0d1a2c6ed5d8fd058c2843b60c14c71f01b3c1"
+        },
+        {
+            "date": 1694374547453,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-11-09-01-success.log",
+            "hash": "fecefe39a8deb70d0aec4afde4595b3241c3cb972034cee293e3849c89b62ffd"
+        },
+        {
+            "date": 1694377069881,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-11-09-02-success.log",
+            "hash": "ea0077fe50b96892985c437c5d7bd02f7e1e8a23ed2b7952b50144c4ac8e67e3"
+        },
+        {
+            "date": 1694392498423,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-11-09-06-success.log",
+            "hash": "87eb9af23cf7b7ee45884974e721a93b03287b9e9a902ec1ca2c15106fadb9ce"
+        },
+        {
+            "date": 1694397757344,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-11-09-08-success.log",
+            "hash": "ebe6ba20cd2e80bb345a848b56f64a36505e3fbf917e98ba48ae2df4a2e84f40"
+        },
+        {
+            "date": 1694449394612,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-11-09-22-success.log",
+            "hash": "eba1225ce43c3cd81d4af32bc7f5a7999a035ca2e39d491616fb51cb084abde5"
+        },
+        {
+            "date": 1694455447888,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-12-09-00-success.log",
+            "hash": "692d7deb872551b9f5cf106ffe006cdf9ac129b1e25f360968de07301fe15190"
+        },
+        {
+            "date": 1694480815666,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-12-09-07-success.log",
+            "hash": "8d523ad9e72a6cb708e956443f9a53a85962d8a03e9823b122ff70a6780ae323"
+        },
+        {
+            "date": 1694563800118,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-13-09-06-success.log",
+            "hash": "ce1855dafae74b31cd41e3acc17653aed6243759e13671de525402d7113df9ac"
+        },
+        {
+            "date": 1694625788174,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-13-09-23-success.log",
+            "hash": "16f0de3b81d6234cfd406a0882071b06a43ff02b01ed53ecfa73f2a00f13cb05"
+        },
+        {
+            "date": 1694653285635,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-14-09-07-success.log",
+            "hash": "78e2e776277c56a37d382bf7ba2e6b572efc1a89f76be3ab4d39f3cfd5919e9b"
+        },
+        {
+            "date": 1694743902086,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-15-09-08-success.log",
+            "hash": "aeb874522781f97f15d2bf10dd296d3d9799861c765dfb7ddc9d92d8fc325f15"
+        },
+        {
+            "date": 1694759536881,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-15-09-12-success.log",
+            "hash": "f7a3ed3aa4cf966df63c56829a8a4e7bb008780fe7420c466e441dfa44c7c6d4"
+        },
+        {
+            "date": 1694761873115,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-15-09-13-success.log",
+            "hash": "78edaa0c1b760a019805f783243b9dc07be8ac12d2d8440425c62b549639325a"
+        },
+        {
+            "date": 1694764906754,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-15-09-14-success.log",
+            "hash": "c422d1fb31b73a6cca21687e38bd70ba6bb695a3699e4228557c2d0175101f98"
+        },
+        {
+            "date": 1694785703341,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-15-09-19-success.log",
+            "hash": "f8000db5cdc7b106ee55339d9c0ca736f08035bb337541b66aad2cf85a3774ed"
+        },
+        {
+            "date": 1694787735425,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-15-09-20-success.log",
+            "hash": "919d10044ef49ec94c0faf49348a16e866db75d4584adb5d00bdc753075e718c"
+        },
+        {
+            "date": 1694824007317,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-16-09-06-success.log",
+            "hash": "6385e941d9b86421709e50d4af6eb5024c20eba0a7cfeba81c14dee8a3296a79"
+        },
+        {
+            "date": 1694827879094,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-16-09-07-success.log",
+            "hash": "ad2198f931ebf8bb251f3e7b08a714a2f11307d953f133531c766f106b49dc95"
+        },
+        {
+            "date": 1694829731454,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-16-09-08-success.log",
+            "hash": "d933d45f28803a2b447cde3cc8ca5331b624a0e1e27ccf8c5d062890357d75da"
+        },
+        {
+            "date": 1694834204186,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-16-09-09-success.log",
+            "hash": "7413b0461b0eecaf7682757effb1c3aab6b9e7ad6a7a6feaaf3932909418d40a"
+        },
+        {
+            "date": 1694845971876,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-16-09-12-success.log",
+            "hash": "1d177a06437b6624beb664d0608da5671c894c5a84d1c0ac16c9a98f6e257cbb"
+        },
+        {
+            "date": 1694847608656,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-16-09-13-success.log",
+            "hash": "7ab21f4a797ed2812688ee7e90bdc6917306f02c7c3518cc6d5b9ecbe32b4ee9"
+        },
+        {
+            "date": 1694912078035,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-17-09-06-success.log",
+            "hash": "552c3143538d57b509160c3f3140d003cf8bf00eeb396eecccd52587a0cee762"
+        },
+        {
+            "date": 1694912442355,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-17-09-07-success.log",
+            "hash": "69e8fb68e700b8d4350cde879ca2c168ba025c3365aa529cd7d77f6db424895e"
+        },
+        {
+            "date": 1694972696074,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-17-09-23-success.log",
+            "hash": "17504f978f1af661dd3f9680e1a7583a603fd8a7dd71f67c7ca9aa941421a973"
+        },
+        {
+            "date": 1694975864343,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-09-00-success.log",
+            "hash": "c4a0fb3076f4c350ac8dc378237dd74f9a4e330225a76c14a25e256fb501426d"
+        },
+        {
+            "date": 1694977238859,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-09-01-success.log",
+            "hash": "58b1342ff5e481bed882aab21fc3d036c42301a7cee714aa23def5a3d3ce9c7f"
+        },
+        {
+            "date": 1694998542749,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-09-06-success.log",
+            "hash": "73758b9a9118e4ee1ce7ee8b81799828a8aae4fed07bffd47f0d46479141ef1f"
+        },
+        {
+            "date": 1694998816483,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-18-09-07-success.log",
+            "hash": "0851f7c9440fd93796680ab6f8100304df822acbfd51f7c9a99733ce9cfd8566"
+        },
+        {
+            "date": 1695171922715,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-09-07-success.log",
+            "hash": "7a44536e1ff4219ee1c9d22ecb9769390d8da83e00297f73ba95f52f612446db"
+        },
+        {
+            "date": 1695175214225,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-09-08-success.log",
+            "hash": "fffc00e47fd31eecf116312300f11d825ff4ef6f0b1a17e65959a4a554502f9f"
+        },
+        {
+            "date": 1695225368908,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-09-21-success.log",
+            "hash": "6703c31eab3a3cf1a99709193cec442a0c25b8a5fd701798035ad31492c147b3"
+        },
+        {
+            "date": 1695227800825,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-09-22-success.log",
+            "hash": "14c491ef3a00321782734c8c7fdb524c0008897782e0f0e1458f1e14e031e00d"
+        },
+        {
+            "date": 1695229210733,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-20-09-23-success.log",
+            "hash": "bdc7c7f9bc0db9c3b62005dbc70a1a61f8faa53929fe475de6c8fbfd87b93621"
+        },
+        {
+            "date": 1695234016485,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-21-09-00-success.log",
+            "hash": "70fcc6af883936cb8d3b2f91fc14ecc6e0e0980022e093ee6ee1c638e7d3bd60"
+        },
+        {
+            "date": 1695236402156,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-21-09-01-success.log",
+            "hash": "88a4a2f6d8904e6f245a94a83093550aff5f4a58a07aef96ed424ec8b9006196"
+        },
+        {
+            "date": 1695259609387,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-21-09-07-success.log",
+            "hash": "78c7d6f0048101e7c95370b5b97a5299f46077798ba37bca92ed9ea65f2c8c2e"
+        },
+        {
+            "date": 1695314014376,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-21-09-22-success.log",
+            "hash": "ec351e5a91189f4a78e9e40ac24b27393cddd2091242393356011213f7892883"
+        },
+        {
+            "date": 1695317147494,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-21-09-23-success.log",
+            "hash": "36e5d1b48b149a1f440dec01d69db060c235b9c5cea8091a6858ea55f72552c2"
+        },
+        {
+            "date": 1695352003666,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-22-09-09-success.log",
+            "hash": "1d6eaaa1e40a8253d43103e5d3e2a862cf822f70ac06d7aec5882c96a36b22da"
+        },
+        {
+            "date": 1695429040295,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-23-09-06-success.log",
+            "hash": "858674396ff8d75ff2ca1dc5669cb0a643911892503d5057a341bf8cf678602a"
+        },
+        {
+            "date": 1695431903957,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-23-09-07-success.log",
+            "hash": "aa1c52fb021bd8127260b382a048ffc8a619522c76ef0bf359942f1006f12ba0"
+        }
+    ],
+    "hashType": "sha256"
+}

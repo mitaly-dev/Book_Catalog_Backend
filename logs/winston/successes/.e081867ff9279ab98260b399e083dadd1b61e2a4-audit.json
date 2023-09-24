@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\successes\\.e081867ff9279ab98260b399e083dadd1b61e2a4-audit.json",
+    "files": [
+        {
+            "date": 1695511558402,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\successes\\phu-2023-24-09-05-success.log",
+            "hash": "780ff1c8e3a44089b7eea2d57b3c0d944de46559acac037d988ed34344c3f410"
+        }
+    ],
+    "hashType": "sha256"
+}

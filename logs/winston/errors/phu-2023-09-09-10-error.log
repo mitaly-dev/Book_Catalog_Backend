@@ -1,0 +1,10 @@
+Sat Sep 09 2023 10:0:34 } [PH] error: 
+Invalid `prisma.course.create()` invocation:
+
+
+Operation 'createOne' for model 'Course' does not match any query.
+Sat Sep 09 2023 10:1:29 } [PH] error: 
+Invalid `prisma.course.create()` invocation:
+
+
+Operation 'createOne' for model 'Course' does not match any query.
