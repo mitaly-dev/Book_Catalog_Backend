@@ -12,7 +12,7 @@ router.post(
   auth(ENUM_USER_ROLE.CUSTOMER),
   OrderCtrl.insertIntoDB,
 );
-// router.get('/', auth(ENUM_USER_ROLE.ADMIN), OrderCtrl.getAllOrders);
+
 router.get('/', auth(ENUM_USER_ROLE.CUSTOMER), OrderCtrl.getAllOrders);
 router.get(
   '/:id',

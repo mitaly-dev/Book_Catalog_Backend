@@ -67,21 +67,15 @@ const getAllData = async (
   const { page, size, skip, minPrice, maxPrice } =
     paginationHelpers.calculatePagination(options);
 
-  // const sortConditons: { [key: string] } = {};
-
-  // if (sortBy && sortOrder) {
-  //   sortConditons[sortBy] = sortOrder;
-  // }
   if (minPrice !== undefined && maxPrice !== undefined) {
     andConditions.push({
       price: {
-        gte: parseFloat(minPrice),
-        lte: parseFloat(maxPrice),
+        gte: Number(minPrice),
+        lte: Number(maxPrice),
       },
     });
   }
 
-  console.log(' andConditions', andConditions);
   const whereConditons: Prisma.BookWhereInput =
     andConditions?.length > 0 ? { AND: andConditions } : {};
 
@@ -101,7 +95,7 @@ const getAllData = async (
   });
 
   const total = await prisma.book.count();
-  console.log('Math.round(total / size)', Math.round(total / size));
+
   return {
     meta: {
       page,
@@ -162,7 +156,6 @@ const updateData = async (
   id: string,
   payload: Partial<Book>,
 ): Promise<Book> => {
-  console.log(' id========', id, payload);
   const result = await prisma.book.update({
     where: {
       id,

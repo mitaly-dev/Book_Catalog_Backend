@@ -59,6 +59,11 @@
             "date": 1695668472627,
             "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-26-09-01-error.log",
             "hash": "cc282c10533fa59dc47d4ea31cfbc7fcfbd497a1b0fd492db99d98effbeaa6e4"
+        },
+        {
+            "date": 1695672015343,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-26-09-02-error.log",
+            "hash": "8426840a2c6e67d8dec83bd2c74eb0c4de7d7d5daa1b9b85d5d82e9dd120b190"
         }
     ],
     "hashType": "sha256"
