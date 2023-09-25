@@ -5,13 +5,23 @@ import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { CategoryService } from './category.service';
 
+const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
+  const result = await CategoryService.insertIntoDB(req.body);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Category created successfully',
+    data: result,
+  });
+});
 const getAllData = catchAsync(async (req: Request, res: Response) => {
   const result = await CategoryService.getAllData();
 
   sendResponse<Category[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Users retrieved successfully',
+    message: 'Categories retrieved successfully',
     data: result,
   });
 });
@@ -21,7 +31,7 @@ const getData = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'User getched successfully',
+    message: 'Category fetched successfully',
     data: result,
   });
 });
@@ -32,7 +42,7 @@ const updateData = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'User updated successfully',
+    message: 'Category updated successfully',
     data: result,
   });
 });
@@ -43,11 +53,12 @@ const deleteData = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Uers deleted successfully',
+    message: 'Category deleted successfully',
     data: result,
   });
 });
 export const CategoryCtrl = {
+  insertIntoDB,
   getAllData,
   getData,
   updateData,

@@ -10,7 +10,7 @@ const router = express.Router();
 router.post(
   '/create-category',
   auth(ENUM_USER_ROLE.ADMIN),
-  CategoryCtrl.getAllData,
+  CategoryCtrl.insertIntoDB,
 );
 router.get('/', CategoryCtrl.getAllData);
 router.get('/:id', CategoryCtrl.getData);

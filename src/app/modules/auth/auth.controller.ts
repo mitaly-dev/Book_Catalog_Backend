@@ -19,7 +19,7 @@ const createUser = catchAsync(async (req: Request, res: Response) => {
 });
 
 const loginUser = catchAsync(async (req: Request, res: Response) => {
-  const result = await AuthService.loginUser(req.body);
+  const result = await AuthService.login(req.body);
   const { token } = result;
 
   const token_options = {

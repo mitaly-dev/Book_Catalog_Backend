@@ -19,6 +19,46 @@
             "date": 1695517293897,
             "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-24-09-07-error.log",
             "hash": "8c5bde16f4a397fa2f54f83350179b5acd68f39d558e949f6c31fccd62b0ce52"
+        },
+        {
+            "date": 1695567915091,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-24-09-21-error.log",
+            "hash": "b04c895f04c68f806b0080d74b2d8917726e9727d0b3d5a9511ac4a5ec986748"
+        },
+        {
+            "date": 1695576788448,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-24-09-23-error.log",
+            "hash": "34c5a1844a295c9a2a86307d6f002d3a1294316e8b1551df01b3209c2ce8ef07"
+        },
+        {
+            "date": 1695578958883,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-25-09-00-error.log",
+            "hash": "fb2633d29d8770fc96141b9fdb8d4dffe2eb3e8f1489d47279b0825c7fe69a80"
+        },
+        {
+            "date": 1695606199825,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-25-09-07-error.log",
+            "hash": "7ddbb91840adbf9721622a3da469d482d41fab801148d58687c17eb85b9a1841"
+        },
+        {
+            "date": 1695607340245,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-25-09-08-error.log",
+            "hash": "5c962dfed4d5d5bb823e54c31e96c46e90a0ddf332fda308d49af81a28b3e06d"
+        },
+        {
+            "date": 1695664648994,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-25-09-23-error.log",
+            "hash": "15aea588ae47632bc614b71387a05b1d874a6a6b63b369f2cc25eef571d237e7"
+        },
+        {
+            "date": 1695664884712,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-26-09-00-error.log",
+            "hash": "324a1bb39ee508a8971d4f0924f9ed7052a0af4797c88dda8052d4c96e8cdb6f"
+        },
+        {
+            "date": 1695668472627,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\errors\\phu-2023-26-09-01-error.log",
+            "hash": "cc282c10533fa59dc47d4ea31cfbc7fcfbd497a1b0fd492db99d98effbeaa6e4"
         }
     ],
     "hashType": "sha256"

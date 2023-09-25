@@ -1,14 +1,16 @@
 import { z } from 'zod';
 
+const create = z.object({
+  body: z.object({
+    title: z.string({ required_error: 'title is required' }),
+  }),
+});
 const update = z.object({
   body: z.object({
-    name: z.string().optional(),
-    email: z.string().optional(),
-    contactNo: z.number().optional(),
-    address: z.number().optional(),
-    profileImg: z.string().optional(),
+    title: z.string().optional(),
   }),
 });
 export const CategoryValidation = {
+  create,
   update,
 };
