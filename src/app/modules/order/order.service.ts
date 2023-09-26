@@ -1,4 +1,6 @@
-import { Order, Prisma } from '@prisma/client';
+import { Order, Prisma, UserRole } from '@prisma/client';
+import httpStatus from 'http-status';
+import ApiError from '../../../errors/ApiError';
 import { prisma } from '../../../shared/prisma';
 import { IOrderedBook } from './order.interface';
 
@@ -18,24 +20,50 @@ const insertIntoDB = async (
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const getAllOrders = async (userId: string): Promise<Order[]> => {
-  const result = await prisma.order.findMany({
-    where: {
-      user: {
-        id: userId,
+const getAllOrders = async (userId: string, role: string): Promise<Order[]> => {
+  let result;
+  if (role === UserRole.customer) {
+    result = await prisma.order.findMany({
+      where: {
+        user: {
+          id: userId,
+        },
       },
-    },
-  });
+    });
+  } else {
+    result = await prisma.order.findMany();
+  }
+  if (result?.length === 0) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Order not found!');
+  }
   return result;
 };
 
-const getData = async (id: string, userId: string): Promise<Order | null> => {
-  const result = await prisma.order.findUnique({
-    where: {
-      id,
-      userId,
-    },
-  });
+const getOrder = async (
+  id: string,
+  userId: string,
+  role: string,
+): Promise<Order | null> => {
+  let result;
+
+  if (role === 'customer') {
+    result = await prisma.order.findUnique({
+      where: {
+        id,
+        userId,
+      },
+    });
+  } else {
+    result = await prisma.order.findUnique({
+      where: {
+        id,
+      },
+    });
+  }
+
+  if (!result) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Order not found!');
+  }
   return result;
 };
 
@@ -64,7 +92,7 @@ const deleteData = async (id: string): Promise<Order> => {
 export const OrderService = {
   insertIntoDB,
   getAllOrders,
-  getData,
+  getOrder,
   updateData,
   deleteData,
 };

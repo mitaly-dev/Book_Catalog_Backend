@@ -36,7 +36,11 @@ const getAllData = catchAsync(async (req: Request, res: Response) => {
 
 const getCategoryBooks = catchAsync(async (req: Request, res: Response) => {
   const options = pick(req.query, optionsData);
-  const result = await BookService.getCategoryBooks(req.params.id, options);
+  const result = await BookService.getCategoryBooks(
+    req.params.id,
+    req.params.category,
+    options,
+  );
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,

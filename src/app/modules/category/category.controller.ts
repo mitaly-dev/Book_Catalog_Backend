@@ -6,6 +6,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { CategoryService } from './category.service';
 
 const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
+  console.log('requ.=============', req.user);
   const result = await CategoryService.insertIntoDB(req.body);
 
   sendResponse(res, {

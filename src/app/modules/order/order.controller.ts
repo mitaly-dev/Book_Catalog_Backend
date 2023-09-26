@@ -19,7 +19,7 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
 
 const getAllOrders = catchAsync(async (req: Request, res: Response) => {
   const user = req.user;
-  const result = await OrderService.getAllOrders(user?.userId);
+  const result = await OrderService.getAllOrders(user?.userId, user?.role);
 
   sendResponse(res, {
     statusCode: httpStatus.OK,
@@ -31,7 +31,11 @@ const getAllOrders = catchAsync(async (req: Request, res: Response) => {
 
 const getOrder = catchAsync(async (req: Request, res: Response) => {
   const user = req.user;
-  const result = await OrderService.getData(req.params.id, user?.userId);
+  const result = await OrderService.getOrder(
+    req.params.id,
+    user?.userId,
+    user?.role,
+  );
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,

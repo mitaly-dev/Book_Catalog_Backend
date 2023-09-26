@@ -108,6 +108,7 @@ const getAllData = async (
 };
 const getCategoryBooks = async (
   categoryId: string,
+  title: string,
   options: IPaginationOptions,
 ): Promise<IGenericResponse<Book[]>> => {
   const { page, size, skip } = paginationHelpers.calculatePagination(options);
@@ -116,6 +117,7 @@ const getCategoryBooks = async (
     where: {
       category: {
         id: categoryId,
+        title,
       },
     },
     skip,
@@ -132,6 +134,10 @@ const getCategoryBooks = async (
   });
 
   const total = await prisma.book.count();
+
+  if (result?.length == 0) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Books not found!');
+  }
 
   return {
     meta: {
