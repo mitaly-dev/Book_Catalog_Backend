@@ -35,7 +35,7 @@ const getOrder = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Book fetched successfully',
+    message: 'Order fetched successfully',
     data: result,
   });
 });
@@ -46,7 +46,7 @@ const updateData = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Book updated successfully',
+    message: 'Order updated successfully',
     data: result,
   });
 });
@@ -57,7 +57,7 @@ const deleteData = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Book is deleted successfully',
+    message: 'Order is deleted successfully',
     data: result,
   });
 });

@@ -64,6 +64,16 @@
             "date": 1695672015334,
             "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\successes\\phu-2023-26-09-02-success.log",
             "hash": "4ce73da982758e17790186654e8cf38098a3fd0fc6ea603da4dc558020becbcd"
+        },
+        {
+            "date": 1695688601984,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\successes\\phu-2023-26-09-06-success.log",
+            "hash": "85a2cf4752a338a9643f0c73bb2162d6b96b6f6be251db76bb8ce3e5a32cc787"
+        },
+        {
+            "date": 1695690505259,
+            "name": "D:\\Programming-Hero-Next-Level\\Mission-6-sql\\Assignment-8\\Book-Catallog-Backend\\logs\\winston\\successes\\phu-2023-26-09-07-success.log",
+            "hash": "9304c199b780039e922a3f4be55888abad9dca148a12de9c0b6dff6f76a131e3"
         }
     ],
     "hashType": "sha256"

@@ -1,16 +1,16 @@
 import { Order, Prisma } from '@prisma/client';
-import { JsonArray } from '@prisma/client/runtime/library';
 import { prisma } from '../../../shared/prisma';
+import { IOrderedBook } from './order.interface';
 
 const insertIntoDB = async (
   userId: string,
-  payload: JsonArray,
+  payload: { orderedBooks: IOrderedBook[] },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
 ): Promise<any> => {
   const result = await prisma.order.create({
     data: {
       userId,
-      orderedBooks: payload,
+      orderedBooks: payload?.orderedBooks,
     },
   });
 

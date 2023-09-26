@@ -9,3 +9,8 @@ export type IfilterData = {
   bloodGroup?: string;
   academicSemeserId?: string;
 };
+
+export type IOrderedBook = {
+  bookId: string;
+  quantity: number;
+};
